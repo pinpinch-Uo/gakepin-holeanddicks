@@ -42,6 +42,8 @@ body{
 .m_c-ornament--boxshadow {
     position: relative; /* 子要素の基準にする */
     z-index: 1;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 .m_c-ornament--boxshadow::after {
