@@ -87,7 +87,7 @@ body {
     word-break: keep-all;
 }
 
-.hero-description {
+.description {
     font-size: 1rem;
     color: #666;
 }
@@ -152,10 +152,6 @@ body {
     margin-bottom: 20px;
 }
 
-.content-description {
-    line-height: 1.8;
-    color: #333;
-}
 
 /* 画像エリア */
 .image-area {
