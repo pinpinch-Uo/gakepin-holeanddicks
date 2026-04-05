@@ -40,6 +40,7 @@ body{
     position: absolute;
     display: flex
     flex-direction: column;
+    box-sizing: border-box;
 }
 
 /* --- 縞々デザインの指定 (ご提示いただいたコード) --- */
@@ -60,13 +61,15 @@ body{
     );
     content: "";
     display: block;
-    height: 100%;
-    width: 100%;
+   　width: calc(100% - 8px);
+    height: calc(100% - 8px);
     position: absolute;
     bottom: -8px; /* 右下にずらす */
     right: -8px;  /* 右下にずらす */
     z-index: -2;  /* ボックスの下に配置 */
 }
+
+*,
 
 /* --- 黒枠のボックス本体 --- */
 .content-inner {
