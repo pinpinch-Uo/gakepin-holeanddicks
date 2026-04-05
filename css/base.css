@@ -108,7 +108,7 @@ body{
 @media (max-width: 768px) {
     .content-inner {
         flex-direction: column; /* 縦並びにする */
-        padding: 30px 20px;
+        padding: 0px 0px;
     }
 
     .image-area {
