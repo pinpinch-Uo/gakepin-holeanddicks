@@ -37,6 +37,8 @@ body{
     margin: 0 auto;
     padding: 0 20px;
     position: absolute;
+    display: flex
+    flex-direction: column;
 }
 
 /* --- 縞々デザインの指定 (ご提示いただいたコード) --- */
