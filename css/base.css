@@ -65,7 +65,7 @@ body{
     height: calc(100% - 8px);
     position: absolute;
     bottom: -8px; /* 右下にずらす */
-    right: -8px;  /* 右下にずらす */
+    right: -20px;  /* 右下にずらす */
     z-index: -2;  /* ボックスの下に配置 */
 }
 
