@@ -36,6 +36,7 @@ body{
      max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
+    position: absolute;
 }
 
 /* --- 縞々デザインの指定 (ご提示いただいたコード) --- */
