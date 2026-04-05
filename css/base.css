@@ -45,32 +45,47 @@ body{
 
 /* --- 縞々デザインの指定 (ご提示いただいたコード) --- */
 .m_c-ornament--boxshadow {
-    position: relative; /* 子要素の基準にする */
+    position: relative;
     z-index: 1;
     margin: 0 auto;
     padding: 0 20px;
 }
 
-.m_c-ornament--boxshadow::after {
+/* 左側の縞 */
+.m_c-ornament--boxshadow::before {
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: -8px;
+    width: 8px;
+    height: calc(100% - 8px);
     background-image: repeating-linear-gradient(
-        -45deg, 
-        #FFF, 
-        #FFF 5px, 
-        #A9A9A9 5px, 
+        0deg,
+        #FFF,
+        #FFF 5px,
+        #A9A9A9 5px,
         #A9A9A9 10px
     );
-    content: "";
-    display: block;
-   　width: calc(100% - 8px);
-    height: calc(100% - 8px);
-    position: absolute;
-    bottom: -8px; /* 右下にずらす */
-    right: -8px;  /* 右下にずらす */
-    z-index: -2;  /* ボックスの下に配置 */
+    z-index: -2;
 }
 
-*,
-
+/* 下側の縞 */
+.m_c-ornament--boxshadow::after {
+    content: "";
+    position: absolute;
+    bottom: -8px;
+    left: 8px;
+    width: calc(100% - 8px);
+    height: 8px;
+    background-image: repeating-linear-gradient(
+        90deg,
+        #FFF,
+        #FFF 5px,
+        #A9A9A9 5px,
+        #A9A9A9 10px
+    );
+    z-index: -2;
+}
 /* --- 黒枠のボックス本体 --- */
 .content-inner {
     background-color: #fff;
