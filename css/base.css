@@ -34,8 +34,7 @@ body{
 /* --- 全体コンテナのサイズ設定 --- */
 .main-container {
 
-    margin: 0 auto;
-    padding: 0 20px;
+
     position: absolute;
     display: flex
     flex-direction: column;
