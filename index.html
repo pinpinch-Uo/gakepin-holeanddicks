@@ -3,110 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>トップページ・レイアウト</title>
-    <style>
-        /* 全体のリセットと基本設定 */
-        * {
-            box-sizing: border-box;
-        }
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
-            background-color: #f8f8f8; /* 背景を少しグレーにして白いボックスを際立たせる */
-            color: #111;
-        }
-
-        /* コンテンツを中央に寄せるためのコンテナ */
-        .container {
-            max-width: 1000px;
-            margin: 0 auto;
-            padding: 60px 20px; /* 上下の余白を広めに確保 */
-        }
-
-        /* テキストと画像のレイアウト */
-        .hero-section {
-            display: flex;
-            flex-direction: column;
-            gap: 40px; /* ボックスと画像の間のスペース */
-            align-items: center;
-        }
-
-        /* 画面幅が768px以上（PC・タブレット）の場合は横並びにする */
-        @media (min-width: 768px) {
-            .hero-section {
-                flex-direction: row;
-                align-items: stretch; /* 高さを揃える */
-            }
-        }
-
-        /* ======= 1. ボックスに囲まれたテキスト部分 ======= */
-        .text-box-wrapper {
-            flex: 1; /* 横幅の割合（1:1で分割） */
-            width: 100%;
-        }
-
-        .text-box {
-            background-color: #ffffff;
-            border: 5px solid #000000; /* インパクトを出すための太い黒枠 */
-            padding: 40px 30px;
-            height: 100%;
-            box-shadow: 8px 8px 0px rgba(0,0,0,0.1); /* 少し影をつけて立体感を演出 */
-        }
-
-        .text-box h1 {
-            margin-top: 0;
-            font-size: 28px;
-            font-weight: bold;
-            border-bottom: 2px solid #eee;
-            padding-bottom: 15px;
-            margin-bottom: 25px;
-            line-height: 1.3;
-        }
-
-        .text-box p {
-            font-size: 16px;
-            line-height: 1.8;
-            margin-bottom: 15px;
-        }
-
-        /* ======= 2. 画像部分 ======= */
-        .image-wrapper {
-            flex: 1; /* 横幅の割合（1:1で分割） */
-            width: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .image-wrapper img {
-            width: 100%;
-            height: 100%;
-            max-height: 500px; /* 画像が縦に長くなりすぎないように制限 */
-            object-fit: cover; /* 画像の縦横比を保ちつつ枠に収める */
-        }
-    </style>
+    <title>Recruit Concept - FAST</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <div class="container">
-        <div class="hero-section">
-            
-            <div class="text-box-wrapper">
-                <div class="text-box">
-                    <h1>タイトルをここに入力<br>（例：即、採用）</h1>
-                    <p>ここに変更したいテキストを入力します。<br>
-                    元のサイトのように「本選考に応募すると…」といったメッセージを配置できます。</p>
-                    <p>文章の途中で改行する場合は <code>&lt;br&gt;</code> タグを使い、段落を分ける場合は <code>&lt;p&gt;</code> タグで囲んでください。HTML上で自由に文章を編集できます。</p>
-                </div>
-            </div>
-
-            <div class="image-wrapper">
-                <img src="https://via.placeholder.com/600x600/cccccc/666666?text=Your+Image+Here" alt="メインビジュアル画像">
-            </div>
-
+    <!-- メインビジュアルセクション -->
+    <section class="hero-section">
+        <!-- 背景画像 (ここを自由に変更) -->
+        <div class="hero-bg">
+            <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2070" alt="背景画像">
         </div>
-    </div>
+
+        <div class="container">
+            <div class="hero-content">
+                
+                <!-- 左側：メインキャッチコピー（枠線ボックス） -->
+                <div class="main-copy-box">
+                    <h1 class="main-title">
+                        <span class="en">FAST</span>
+                        <span class="ja">最速で、<br>最高を。</span>
+                    </h1>
+                </div>
+
+                <!-- 右側：縦書きのテキストボックス -->
+                <div class="vertical-text-box">
+                    <p>成長を加速させる環境が、ここにある。</p>
+                </div>
+
+                <!-- 下部：サブリード（枠線ボックス） -->
+                <div class="sub-lead-box">
+                    <p>私たちは、変化を恐れず、<br>
+                    誰よりも速く挑戦し続けるプロフェッショナル集団です。</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ここから下に他のコンテンツやフォームを追加していく -->
 
 </body>
 </html>
