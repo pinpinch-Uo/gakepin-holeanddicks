@@ -35,7 +35,8 @@ body{
 .main-container {
     max-width: 1200px;
     width: 100%;
-    margin:  0 auto;  
+  margin: 0 auto;
+    padding: 0 20px;
 }
 
 /* --- 縞々デザインの指定 (ご提示いただいたコード) --- */
