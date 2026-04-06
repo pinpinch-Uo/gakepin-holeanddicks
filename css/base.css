@@ -50,6 +50,16 @@ body{
     display: flex
     flex-direction: column;
     box-sizing: border-box;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    position: relative;
+    top: -4px;
+    left: -4px;
+    z-index: 0;
+    padding-top: 2px;
+    padding-right: 2px;
+    padding-bottom: 2px;
+    padding-left: 2px;
 }
 
 /* --- 縞々デザインの指定 (ご提示いただいたコード) --- */
