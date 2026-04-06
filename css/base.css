@@ -58,7 +58,7 @@ body{
 .m_c-ornament--boxshadow {
     position: relative; 
     z-index: 1;
-     margin: 0 auto;
+     margin: 10px;
     /* margin, padding はここではなく container か inner で調整 */
 }
 
