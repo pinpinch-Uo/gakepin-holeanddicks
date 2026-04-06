@@ -128,11 +128,6 @@ body{
         flex-direction: column;
         min-height: auto;
     }
-
-    .text-area {
-        padding: 30px 20px;
-    }
-
     .image-area {
         width: 100%;
     }
@@ -142,6 +137,11 @@ body{
         min-height: 300px;
         height: 300px;
     }
+    .text-area {
+        padding: 30px 20px;
+    }
+
+    
 }
 
 
