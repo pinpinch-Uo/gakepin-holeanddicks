@@ -46,7 +46,7 @@ body{
 /* --- 全体コンテナのサイズ設定 --- */
 .main-container {
       width: 100%;
-    max-width: 1200px;
+    max-width: 1500px;
     margin: 0 auto;
     padding: 0 20px;
     position: absolute;
