@@ -47,7 +47,7 @@ body{
 .main-container {
       width: 100%;
     max-width: 1500px;
-    margin: 0 auto;
+    margin: 80 auto;
     padding: 0 20px;
     position: absolute;
     display: flex
