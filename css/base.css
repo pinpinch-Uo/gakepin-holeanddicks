@@ -98,6 +98,7 @@ body{
 /* テキストエリア */
 .text-area {
     flex: 1; /* 幅を柔軟にする */
+     order: 2;
 }
 
 .title {
@@ -110,6 +111,7 @@ body{
 /* 画像エリア */
 .image-area {
     flex: 1.4;
+    order: 1;
     
 }
 
