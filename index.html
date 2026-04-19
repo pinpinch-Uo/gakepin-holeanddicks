@@ -7,12 +7,44 @@
     <link rel="stylesheet"  type="text/css" href="https://pinpinch-uo.github.io/gakepin-holeanddicks/css/base.css">
 </head>
 <body>
+    
+<header class="site-header">
+    <div class="header-inner">
 
-    <!-- ヘッダー代わりの画像エリア（後ほどご自身で差し替え） -->
-    <div class="header-placeholder">
-        <p>※ここにヘッダー画像が表示されます</p>
+        <!-- 左：ロゴ -->
+        <div class="logo">
+            <img src="logo.png" alt="ロゴ">
+        </div>
+
+        <!-- 右：ナビ -->
+        <nav class="nav">
+            <ul>
+                <li><a href="#">ホーム</a></li>
+                <li><a href="#">会社概要</a></li>
+                <li><a href="#">サービス</a></li>
+                <li><a href="#">お問い合わせ</a></li>
+            </ul>
+        </nav>
+
+        <!-- ハンバーガー -->
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
     </div>
+</header>
 
+<!-- メニュー（スマホ用） -->
+<div class="mobile-menu" id="mobileMenu">
+    <ul>
+        <li><a href="#">ホーム</a></li>
+        <li><a href="#">会社概要</a></li>
+        <li><a href="#">サービス</a></li>
+        <li><a href="#">お問い合わせ</a></li>
+    </ul>
+</div>
     <main>
         
 <div class="main-container">
@@ -53,3 +85,12 @@
 
 </body>
 </html>
+
+<script>
+const hamburger = document.getElementById("hamburger");
+const menu = document.getElementById("mobileMenu");
+
+hamburger.addEventListener("click", () => {
+    menu.classList.toggle("active");
+});
+</script>
