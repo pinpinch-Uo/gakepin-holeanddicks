@@ -12,17 +12,104 @@ body{
     background-color: #fff;
 }
 
-/* --- ヘッダープレースホルダー --- */
-.header-placeholder {
+/* ヘッダー全体 */
+.site-header {
+    position: fixed;
+    top: 0;
     width: 100%;
-    height: 80px; /* 画像の高さに合わせて調整 */
-    background-color: #eee;
+    background: #fff;
+    z-index: 1000;
+    border-bottom: 1px solid #ddd;
+}
+
+/* 内側 */
+.header-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    height: 80px;
+
     display: flex;
     align-items: center;
-    justify-content: center;
-    position: sticky;
+    justify-content: space-between;
+}
+
+/* ロゴ */
+.logo img {
+    height: 40px;
+}
+
+/* ナビ */
+.nav ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* ハンバーガー（初期非表示） */
+.hamburger {
+    width: 30px;
+    height: 20px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.hamburger span {
+    display: block;
+    height: 3px;
+    background: #333;
+    border-radius: 2px;
+}
+
+/* モバイルメニュー */
+.mobile-menu {
+    position: fixed;
     top: 0;
-    z-index: 1000;
+    right: -100%;
+    width: 70%;
+    height: 100%;
+    background: #fff;
+    transition: 0.3s;
+    padding: 80px 20px;
+    z-index: 999;
+}
+
+.mobile-menu.active {
+    right: 0;
+}
+
+.mobile-menu ul {
+    list-style: none;
+}
+
+.mobile-menu li {
+    margin-bottom: 20px;
+}
+
+.mobile-menu a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
+
+/* --- レスポンシブ --- */
+@media (max-width: 768px) {
+
+    .nav {
+        display: none; /* テキスト非表示 */
+    }
+
+    .hamburger {
+        display: flex; /* 三本線表示 */
+    }
 }
 
 .description {
