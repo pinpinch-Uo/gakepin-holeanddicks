@@ -42,7 +42,7 @@ body{
 /* ナビ */
 .nav ul {
     display: flex;
-    gap: 50px;
+    gap: 30px;
     list-style: none;
 }
 
@@ -62,6 +62,7 @@ body{
     flex-direction: column;
     justify-content: space-between;
     cursor: pointer;
+    right-padding:10px
 }
 
 .hamburger span {
@@ -110,7 +111,8 @@ body{
     }
 
     .hamburger {
-        display: flex; /* 三本線表示 */
+        display: flex; /* 三本線表示 */ 
+        
     }
 }
 
