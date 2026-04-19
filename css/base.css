@@ -57,7 +57,7 @@ body{
 /* ハンバーガー（初期非表示） */
 .hamburger {
     width: 30px;
-    height: 25px;
+    height: 36px;
     display: none;
     flex-direction: column;
     justify-content: space-between;
