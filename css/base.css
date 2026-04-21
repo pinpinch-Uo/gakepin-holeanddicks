@@ -62,7 +62,7 @@ body{
     flex-direction: column;
     justify-content: space-between;
     cursor: pointer;
-    right-padding:10px
+    padding-right:10px
 }
 
 .hamburger span {
@@ -78,7 +78,6 @@ body{
     left: 0;
     width: 100%;
     background: #fff;
-    order:-2;
     max-height: 0;
     overflow: hidden;
     transition: 0.3s ease;
@@ -153,7 +152,7 @@ body{
     margin: 180px auto;
     padding: 0 20px;
     position: absolute;
-    display: flex
+    display: flex;
     flex-direction: column;
     box-sizing: border-box;
     order:1;
