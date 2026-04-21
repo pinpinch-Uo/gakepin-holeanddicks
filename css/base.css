@@ -150,7 +150,7 @@ body{
 .main-container {
       width: 100%;
     max-width: 1500px;
-    margin: 180px auto;
+    margin: 10px auto;
     padding: 0 20px;
     position: absolute;
     display: flex;
@@ -168,7 +168,8 @@ body{
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    order:1;
+    order:2;
+    position:relative;
   
 }
 
