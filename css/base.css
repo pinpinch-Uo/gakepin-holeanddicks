@@ -78,7 +78,7 @@ body{
     left: 0;
     width: 100%;
     background: #fff;
-    order:-1;
+    order:-2;
     max-height: 0;
     overflow: hidden;
     transition: 0.3s ease;
@@ -98,6 +98,7 @@ body{
         grid-template-columns: 1fr 1fr; /* 2列 */
         gap: 0px;
         padding: 0px;
+        order:-1;
     }
 
     .mobile-menu li {
@@ -265,26 +266,4 @@ body{
 }
 
 
-/* --- レスポンシブ（スマホ対応） --- */
-@media (max-width: 900px) {
-    .hero-flex {
-        flex-direction: column; /* 縦並びにする */
-    }
 
-    .hero-image {
-        width: 100%;
-        margin-bottom: -30px; /* スマホでも少し重ねる */
-    }
-
-    .hero-text-box {
-        width: 90%;
-        margin-right: 0;
-        padding: 30px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .main-catch {
-        font-size: 1.8rem;
-    }
-}
