@@ -91,7 +91,7 @@ body{
     max-height: 300px; /* メニューの高さに応じて調整 */
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 1000px) {
 
     .mobile-menu ul {
         display: grid;
