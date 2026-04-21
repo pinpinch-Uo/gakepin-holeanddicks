@@ -56,13 +56,13 @@ body{
 
 /* ハンバーガー（初期非表示） */
 .hamburger {
-    width: 36px;
+    width: 42px;
     height: 36px;
     display: none;
     flex-direction: column;
     justify-content: space-between;
     cursor: pointer;
-    padding-right:10px
+    padding-right:6px
 }
 
 .hamburger span {
@@ -165,8 +165,7 @@ body{
     max-width: 1500px;
     margin: 180px auto;
     padding: 0 20px;
-    position: absolute;
-    display: flex
+    display: flex;
     flex-direction: column;
     box-sizing: border-box;
     order:1;
