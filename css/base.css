@@ -159,6 +159,19 @@ body{
   
 }
 
+.sub-container {
+      width: 100%;
+    max-width: 1500px;
+    margin: 180px auto;
+    padding: 0 20px;
+    position: absolute;
+    display: flex
+    flex-direction: column;
+    box-sizing: border-box;
+    order:1;
+  
+}
+
 /* --- 縞々デザインの指定 (ご提示いただいたコード) --- */
 /* --- 縞々デザインの指定 --- */
 .m_c-ornament--boxshadow {
