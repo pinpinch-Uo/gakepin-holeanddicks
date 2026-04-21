@@ -152,7 +152,7 @@ body{
     max-width: 1500px;
     margin: 10px auto;
     padding: 0 20px;
-    position: absolute;
+    position: static;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
