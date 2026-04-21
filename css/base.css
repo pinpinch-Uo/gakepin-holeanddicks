@@ -169,7 +169,7 @@ body{
     flex-direction: column;
     box-sizing: border-box;
     order:2;
-    position:relative;
+    position:static;
   
 }
 
