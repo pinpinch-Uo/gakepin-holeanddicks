@@ -73,7 +73,7 @@ body{
 }
 
 .mobile-menu {
-    position: absolute;
+    position: fixed;
     top: 100px; /* ヘッダーの高さ分下に */
     left: 0;
     width: 100%;
