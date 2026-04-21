@@ -91,7 +91,7 @@ body{
     max-height: 300px; /* メニューの高さに応じて調整 */
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 900px) {
 
     .mobile-menu ul {
         display: grid;
@@ -115,7 +115,7 @@ body{
 
 
 /* --- レスポンシブ --- */
-@media (max-width: 1400px) {
+@media (max-width: 900px) {
     
     .nav {
         display: none; /* テキスト非表示 */
@@ -266,7 +266,7 @@ body{
 
 
 /* --- レスポンシブ（スマホ対応） --- */
-@media (max-width: 960px) {
+@media (max-width: 900px) {
     .hero-flex {
         flex-direction: column; /* 縦並びにする */
     }
