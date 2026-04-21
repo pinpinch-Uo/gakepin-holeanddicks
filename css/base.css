@@ -81,7 +81,7 @@ body{
     max-height: 0;
     overflow: hidden;
     transition: 0.3s ease;
-
+    z-index: 999; 
     border-bottom: 1px solid #ddd;
 }
 
@@ -98,10 +98,11 @@ body{
         gap: 0px;
         padding: 0px;
         order:-1;
+        list-style: none;
+
     }
 
     .mobile-menu li {
-        border: 1px solid #ddd;
         text-align: center;
         padding: 20px 10px;
     }
