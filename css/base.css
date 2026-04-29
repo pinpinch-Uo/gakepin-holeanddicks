@@ -92,6 +92,9 @@ body{
 
 @media (max-width: 900px) {
 
+    .site-header {
+        max-height:80px;
+
     .mobile-menu ul {
         display: grid;
         grid-template-columns: 1fr 1fr; /* 2列 */
@@ -112,11 +115,6 @@ body{
         font-size: 16px;
         font-weight: bold;
     }
-}
-
-
-/* --- レスポンシブ --- */
-@media (max-width: 900px) {
     
     .nav {
         display: none; /* テキスト非表示 */
@@ -154,6 +152,7 @@ body{
     padding: 0 20px;
     position: static;
     display: flex;
+    margin-top:200px
     flex-direction: column;
     box-sizing: border-box;
     order:1;
