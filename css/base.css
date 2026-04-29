@@ -146,7 +146,8 @@ body{
 .main-container {
       width: 100%;
     max-width: 1500px;
-    margin: 10px auto;
+    margin-right: 10px auto;
+    margin-left: 10px auto;
     padding: 0 20px;
     position: static;
     display: flex;
@@ -259,7 +260,7 @@ body{
         order: 2;
     }
    .hamburger {
-        height:50px;
+        height:32px;
     
 }
 
