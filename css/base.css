@@ -141,12 +141,6 @@ body{
     min-height: 120px;
 }
 
-@media (max-width: 768px){
-     .hamburger {
-        height:50px;
-        
-    }
-}
 
 /* --- 全体コンテナのサイズ設定 --- */
 .main-container {
@@ -156,7 +150,7 @@ body{
     padding: 0 20px;
     position: static;
     display: flex;
-    margin-top:200px
+    margin-top:200px;
     flex-direction: column;
     box-sizing: border-box;
     order:1;
@@ -264,7 +258,8 @@ body{
         padding: 10px 10px;
         order: 2;
     }
-
+   .hamburger {
+        height:50px;
     
 }
 
