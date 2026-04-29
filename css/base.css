@@ -261,7 +261,9 @@ body{
     }
    .hamburger {
         height:32px;
-    
+   }
+   .site-header {
+       height:60px;
 }
 
 
