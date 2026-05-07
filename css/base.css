@@ -133,7 +133,14 @@ body{
             .mobile-menu {
                 top: 60px; /* 修正: メニューの出現位置も60pxに合わせる（隙間と余分な線を防止） */
             }
+            .logo img {
+            height: 40px;
+            }
 
+            .logo-text {
+            display: none; 
+            }
+    
     .mobile-menu ul {
         display: grid;
         grid-template-columns: 1fr 1fr; /* 2列 */
