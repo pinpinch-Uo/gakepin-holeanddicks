@@ -417,7 +417,7 @@ input[type="text"] {
 
 /* --- レスポンシブ（スマホ対応） --- */
 @media (max-width: 768px) {
-    .content-inner {
+    .content-top {
         flex-direction: column;
         min-height: auto;
     }
