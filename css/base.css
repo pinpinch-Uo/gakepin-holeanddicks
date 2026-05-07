@@ -36,6 +36,11 @@ body{
 }
 
 /* ロゴ */
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
 .logo img {
     height: 60px;
 }
