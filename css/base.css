@@ -225,6 +225,10 @@ body{
     min-height: 300px;
 }
 .content-top{ 
+    align-items: center;    /* 上下中央揃え */
+    padding: 0px;
+    gap: 20px;              /* テキストと画像の間隔 */
+    min-height: 300px;
     display: flex;
 }
 /* テキストエリア */
