@@ -348,6 +348,7 @@ input[type="text"] {
     background: #fff;
     max-width:700px;
 }
+
 @media (max-width: 1000px) {
 
             .site-header {
@@ -401,7 +402,7 @@ input[type="text"] {
     .image-area img {
     height: 360px;
 }
-
+}
 
 /* --- レスポンシブ（スマホ対応） --- */
 @media (max-width: 768px) {
