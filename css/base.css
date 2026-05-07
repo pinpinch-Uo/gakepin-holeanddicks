@@ -31,7 +31,8 @@ body{
 
     display: flex;
     align-items: center;
-    justify-content: space-evenly; }
+    justify-content: space-between;
+}
 
 /* ロゴ */
 .logo img {
@@ -48,6 +49,7 @@ body{
     display: flex;
     gap: 30px;
     list-style: none;
+    justify-content: space-evenly;
 }
 .nav li {
     display: flex;
