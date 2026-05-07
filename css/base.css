@@ -197,7 +197,7 @@ body{
     min-height: 120px;
 }
 .t2-description{
-    font-size: clamp(14px, 1.6vw, 24px);
+    font-size: 14px;
     font-weight: 500;
     line-height: 2;
     text-align: justify;
