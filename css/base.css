@@ -32,7 +32,7 @@ body{
 
     display: flex;
     align-items: center;
-    justify-content: left;
+    justify-content: space-between;
 }
 
 /* ロゴ */
@@ -363,6 +363,9 @@ input[type="text"] {
             }
             .logo img {
             height: 40px;
+            }
+            .logo-text{
+                justify-content: left;
             }
             .logo-text .logo-t1{
                 font-size: 10px;
