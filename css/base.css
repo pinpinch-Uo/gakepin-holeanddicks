@@ -247,7 +247,7 @@ body{
 .image-area img {
     width: 100%;
     height: 100%;
-    min-height: 300px; 
+    min-height: 540px; 
     display: block;
     object-fit: cover;
   
@@ -318,7 +318,7 @@ body{
         display: flex; /* 三本線表示 */ 
         
     }
-    main-container {
+    .image-area img {
     height: 360px;
 }
 
@@ -337,7 +337,6 @@ body{
     .image-area img {
         order: 1; 
         min-height: 300px;
-        height: 300px;
     }
     .text-area {
         padding: 10px 10px;
