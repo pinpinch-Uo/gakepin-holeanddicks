@@ -68,7 +68,7 @@ body{
 
 /* ナビ */
 .nav {
-            margin-left: 50px; /* ロゴとの間隔 */
+            margin-left: 2em; /* ロゴとの間隔 */
             margin-right: auto; /* 右側の余白を埋めて、右端に張り付くのを防ぐ */
         }
     
