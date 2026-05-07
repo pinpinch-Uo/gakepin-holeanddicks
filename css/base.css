@@ -40,16 +40,20 @@ body{
     height: 60px;
 }
 
-.logo-text{
+.logo-text {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
-.logo-text.logo-t1 {
+
+/* 上の文字 */
+.logo-text .logo-t1 {
     font-size: 16px;
 }
-.logo-text.logo-t2 {
+
+/* 下の文字 */
+.logo-text .logo-t2 {
     border-top: 1px solid #000;
     border-bottom: 1px solid #000;
     font-size: 22px;
@@ -59,7 +63,6 @@ body{
     margin-top: .25em;
     width: 100%;
 }
-
 
 /* ナビ */
 .nav {
