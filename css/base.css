@@ -51,6 +51,7 @@ body{
 /* 上の文字 */
 .logo-text .logo-t1 {
     font-size: 16px;
+    font-weight:700;
 }
 
 /* 下の文字 */
