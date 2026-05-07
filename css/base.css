@@ -31,8 +31,7 @@ body{
 
     display: flex;
     align-items: center;
-    justify-content: space-between;
-}
+    justify-content: flex-start; /* 修正: 両端揃えをやめて左詰めに */
 
 /* ロゴ */
 .logo img {
@@ -40,6 +39,11 @@ body{
 }
 
 /* ナビ */
+.nav {
+            margin-left: 50px; /* ロゴとの間隔 */
+            margin-right: auto; /* 右側の余白を埋めて、右端に張り付くのを防ぐ */
+        }
+    
 .nav ul {
     display: flex;
     gap: 30px;
@@ -91,6 +95,16 @@ body{
 }
 
 @media (max-width: 900px) {
+
+            .site-header {
+                height: 60px; /* 修正: ヘッダー全体を60pxに */
+            }
+            .header-inner {
+                height: 60px; /* 修正: インナーも60pxに合わせる */
+            }
+            .mobile-menu {
+                top: 60px; /* 修正: メニューの出現位置も60pxに合わせる（隙間と余分な線を防止） */
+            }
 
     .mobile-menu ul {
         display: grid;
@@ -213,7 +227,7 @@ body{
 /* テキストエリア */
 .text-area {
     flex: 1; /* 幅を柔軟にする */
-    order:2;
+    order:1;
 }
 
 .title {
@@ -226,7 +240,7 @@ body{
 /* 画像エリア */
 .image-area {
     flex: 1.4;
-    order:1;
+    order:2;
     
 }
 
