@@ -45,7 +45,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: start;
 }
 
 /* 上の文字 */
@@ -127,57 +127,6 @@ body{
     max-height: 300px; /* メニューの高さに応じて調整 */
 }
 
-@media (max-width: 900px) {
-
-            .site-header {
-                height: 60px; /* 修正: ヘッダー全体を60pxに */
-            }
-            .header-inner {
-                height: 60px; /* 修正: インナーも60pxに合わせる */
-            }
-            .mobile-menu {
-                top: 60px; /* 修正: メニューの出現位置も60pxに合わせる（隙間と余分な線を防止） */
-            }
-            .logo img {
-            height: 40px;
-            }
-            .logo-text .logo-t1{
-                font-size: 10px;
-            }
-            .logo-text .logo-t2{
-                font-size: 16px;
-            }
-    
-    .mobile-menu ul {
-        display: grid;
-        grid-template-columns: 1fr 1fr; /* 2列 */
-        gap: 0px;
-        padding: 0px;
-        order:-1;
-        list-style: none;
-
-    }
-
-    .mobile-menu li {
-        text-align: center;
-        padding: 20px 10px;
-    }
-
-    .mobile-menu a {
-        display: block;
-        font-size: 16px;
-        font-weight: bold;
-    }
-    
-    .nav {
-        display: none; /* テキスト非表示 */
-    }
-
-    .hamburger {
-        display: flex; /* 三本線表示 */ 
-        
-    }
-}
 
 .description {
     font-size: 1rem;
@@ -208,7 +157,7 @@ body{
 
 /* --- 全体コンテナのサイズ設定 --- */
 .main-container {
-      width: 100%;
+    width: 100%;
     max-width: 1500px;
     margin-right: 10px auto;
     margin-left: 10px auto;
@@ -219,6 +168,7 @@ body{
     flex-direction: column;
     box-sizing: border-box;
     order:1;
+    min-height:540px;
   
 }
 
@@ -316,8 +266,63 @@ body{
     margin-right: auto;
     width: 100%;
     max-width: 600px;
+
 }
+@media (max-width: 900px) {
+
+            .site-header {
+                height: 60px; /* 修正: ヘッダー全体を60pxに */
+            }
+            .header-inner {
+                height: 60px; /* 修正: インナーも60pxに合わせる */
+            }
+            .mobile-menu {
+                top: 60px; /* 修正: メニューの出現位置も60pxに合わせる（隙間と余分な線を防止） */
+            }
+            .logo img {
+            height: 40px;
+            }
+            .logo-text .logo-t1{
+                font-size: 10px;
+            }
+            .logo-text .logo-t2{
+                font-size: 16px;
+            }
+    
+    .mobile-menu ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr; /* 2列 */
+        gap: 0px;
+        padding: 0px;
+        order:-1;
+        list-style: none;
+
+    }
+
+    .mobile-menu li {
+        text-align: center;
+        padding: 20px 10px;
+    }
+
+    .mobile-menu a {
+        display: block;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    
+    .nav {
+        display: none; /* テキスト非表示 */
+    }
+
+    .hamburger {
+        display: flex; /* 三本線表示 */ 
+        
+    }
+    main-container {
+    height: 360px;
 }
+
+
 /* --- レスポンシブ（スマホ対応） --- */
 @media (max-width: 768px) {
     .content-inner {
