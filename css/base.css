@@ -45,7 +45,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 /* 上の文字 */
@@ -141,10 +141,10 @@ body{
             .logo img {
             height: 40px;
             }
-            .logo-text.logo-t1{
+            .logo-text .logo-t1{
                 font-size: 10px;
             }
-            .logo-text.logo-t2{
+            .logo-text .logo-t2{
                 font-size: 16px;
             }
     
