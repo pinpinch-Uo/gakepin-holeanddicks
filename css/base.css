@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 
+
 body{
     font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
     color: #333;
@@ -38,6 +39,27 @@ body{
 .logo img {
     height: 40px;
 }
+
+.logo-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo-text.title1 {
+    font-size: 10px;
+}
+.logo-text.title2 {
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: .25em;
+    margin-top: .25em;
+    width: 100%;
+}
+
 
 /* ナビ */
 .nav {
