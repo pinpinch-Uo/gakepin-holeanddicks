@@ -269,6 +269,83 @@ body{
     max-width: 600px;
 
 }
+.section-divider {
+    position: relative;
+    height: 40px;
+    margin: 40px 0 20px;
+}
+
+.section-divider::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #000;
+    transform: translateY(-50%);
+}
+
+/* 三角 */
+.triangle {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 18px solid transparent;
+    border-right: 18px solid transparent;
+    border-top: 28px solid #000;
+    background: #fff;
+    z-index: 2;
+}
+
+/* ===== タイトル＋線 ===== */
+.section-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.section-title::before,
+.section-title::after {
+    content: "";
+    flex: 1;
+    height: 2px;
+    background: #000;
+}
+
+.section-title h2 {
+    color: #ff2e92;
+    font-size: 24px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+/* ===== フォーム ===== */
+.form-area {
+    margin-top: 40px;
+}
+
+.form-group {
+    margin-bottom: 30px;
+}
+
+input[type="text"] {
+    width: 100%;
+    max-width: 500px;
+    height: 30px;
+}
+
+/* 注意書き */
+.notice {
+    border: 2px solid #ff6b6b;
+    padding: 20px;
+    margin-top: 30px;
+    background: #fff;
+}
 @media (max-width: 1000px) {
 
             .site-header {
